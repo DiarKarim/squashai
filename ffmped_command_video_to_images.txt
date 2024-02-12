@@ -1,0 +1,1 @@
+ffmpeg -i Stuart_360_Video.mp4 -r 3 output%04d.png
