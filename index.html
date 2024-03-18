@@ -1,0 +1,364 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="      Squash-AI Advanced Squash Tracking Analysis"
+    />
+    <meta
+      name="keywords"
+      content="AR, VR, Sports Tracking, Evaluation, Coaching"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      A framework for evaluating AR/VR eye tracking systems: A case study with
+      the Apple Vision Pro
+    </title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+
+      gtag("config", "G-PYVRSFMDRL");
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./bulma.min.css" />
+    <link rel="stylesheet" href="./bulma-carousel.min.css" />
+    <link rel="stylesheet" href="./bulma-slider.min.css" />
+    <link rel="stylesheet" href="./fontawesome.all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./static/images/hust.png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./fontawesome.all.min.js"></script>
+    <script src="./bulma-carousel.min.js"></script>
+    <script src="./bulma-slider.min.js"></script>
+    <script src="./index.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center">
+          <a class="navbar-item" href="https://diarkarim.github.io/">
+            <span class="icon">
+              <i class="fas fa-home"></i>
+            </span>
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> More Research </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="https://textinputvault.github.io/">
+                Text Input Vault
+              </a>
+              <a
+                class="navbar-item"
+                href="https://link.springer.com/article/10.3758/s13428-022-02051-8"
+              >
+                Framework for Hand Tracking Evaluation
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h3 class="title is-1 publication-title">
+                A framework for evaluating AR/VR eye tracking systems
+              </h3>
+              <h4 class="title is-1 publication-title">
+                A case study with the Apple Vision Pro
+              </h4>
+              <h5 class="title is-3">CHI 2025</h5>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  <a href="https://diarkarim.github.io">Author 1</a
+                  ><sup>1*✉</sup>,</span
+                >
+                <span class="author-block">
+                  <a href="https://taoranyi.github.io">Author 2</a
+                  ><sup>2*</sup>,</span
+                >
+                <span class="author-block">
+                  <a href="https://jaminfong.cn">Author 3</a><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                  <a
+                    href="https://scholar.google.com/citations?hl=en&user=ru_z3mMAAAAJ"
+                    >Author 4</a
+                  ><sup>2</sup>,
+                </span>
+                <span class="author-block">
+                  <a href="https://massimilianodiluca.info/">Author 5</a
+                  ><sup>1‡</sup>,
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"
+                  ><sup>1</sup>University of Birmingham, School of
+                  Psychology</span
+                >
+                <span class="author-block"
+                  ><sup>2</sup>University of Birmingham, School of Sport,
+                  Exercise and Rehabilitation Sciences</span
+                >
+                <p></p>
+                <span class="author-block"
+                  ><sup>*</sup>Equal Contributions.</span
+                >
+                <span class="author-block"><sup>‡</sup>Project Lead.</span>
+
+                <span class="author-block"
+                  ><sup>✉</sup>Corresponding Authors.</span
+                >
+              </div>
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <!-- PDF Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://www.biorxiv.org/content/10.1101/2022.02.18.481001v1.full.pdf"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+                  <span class="link-block">
+                    <a
+                      href="https://www.biorxiv.org/content/10.1101/2022.02.18.481001v1"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+                  <!-- Video Link. -->
+                  <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+                  <!-- Code Link. -->
+                  <span class="link-block">
+                    <a
+                      href="https://github.com/eyetrackai/eyetrackai.github.io"
+                      class="external-link button is-normal is-rounded is-dark"
+                    >
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+                  <!-- Dataset Link. -->
+                  <!-- <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <img
+              src="./teaserfig1.gif"
+              class="interpolation-image"
+              alt="Interpolation end reference image."
+            />
+            <p>
+              Our method achieves sub-millimeter ground-truth tracking accuracy
+            </p>
+
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                In this paper, we present a novel, robust method for evaluating
+                the positional accuracy of augmented virtual reality (AR/VR)
+                based eye tracking systems. Our approach leverages a robotic
+                head equipped with artificial eyes, coupled with a target
+                display environment developed within the Unity game engine. This
+                innovative setup is designed to mimic human eye movements and
+                interactions with virtual environments, thereby providing a
+                standardized, reproducible platform for eye tracking assessment.
+                We detail the construction and calibration of the robotic head,
+                as well as the integration of artificial eyes capable of
+                replicating a wide range of eye movements. The Unity-based
+                target display environment enables the execution of various eye
+                tracking evaluation experiments, including the presentation of
+                static and moving targets, among other scenarios. These
+                experiments are carefully designed to challenge the eye tracking
+                systems under test, covering a comprehensive spectrum of
+                real-world use cases. The methodology for analyzing the data
+                collected from these experiments is outlined, focusing on the
+                assessment of positional accuracy, latency, and tracking
+                stability across different conditions. Preliminary results
+                demonstrate the effectiveness of our method in identifying
+                performance discrepancies among leading AR/VR eye tracking
+                systems, highlighting its potential as a benchmarking tool for
+                developers and researchers alike. Furthermore, we discuss the
+                implications of our findings for the design and improvement of
+                eye tracking technologies in AR/VR applications. By offering a
+                reliable and scalable evaluation framework, our method
+                contributes significantly to the advancement of immersive
+                technologies, paving the way for more accurate, responsive, and
+                user-friendly AR/VR experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="./teaserfig2.gif"
+          class="interpolation-image"
+          alt="Interpolation end reference image."
+        />
+        <p>The overall pipeline of our model</p>
+        <!--/ Abstract. -->
+
+        <!-- Paper video. -->
+        <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+        <!--/ Paper video. -->
+      </div>
+    </section>
+
+    <!-- <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@article{park2021nerfies,
+  author    = {Karim, Diar and Tiao, Ning, Mendez, Jhundon, Yeo, Sang-Hoon, Di Luca, Massimialino},
+  title     = {Nerfies: Deformable Neural Radiance Fields},
+  journal   = {ICCV},
+  year      = {2021},
+}</code></pre>
+      </div>
+    </section> -->
+
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title">Acknowledgement</h2>
+        <p>
+          We would like to express our sincere gratitude to
+          <a href="https://github.com/xyz">XYZ</a> for their revisions to our
+          code and discussions on the content of our paper.
+        </p>
+      </div>
+    </section>
+    <section class="section" id="BibTeX">
+      <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>@article{ka2024eyetrack,
+      title={Squash-AI Advanced Squash Tracking Analysis},
+      author={Karim, Diar and Tiao, Ning, Mendez, Jhundon, Yeo, Sang-Hoon, Di Luca, Massimialino},
+      journal={arXiv preprint arXiv:2310.08528},
+      year={2024}
+    }</code></pre>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <a class="icon-link" href="https://arxiv.org/abs/2310.08528">
+            <i class="fas fa-file-pdf"></i>
+          </a>
+          <a
+            class="icon-link"
+            href="https://github.com/guanjunwu"
+            class="external-link"
+            disabled
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+              <p>
+                This website is licensed under a
+                <a
+                  rel="license"
+                  href="http://creativecommons.org/licenses/by-sa/4.0/"
+                  >Creative Commons Attribution-ShareAlike 4.0 International
+                  License</a
+                >.
+              </p>
+              <!-- <p>
+                The souce code is borrowed from
+                <a href="https://github.com/hustvl/4DGaussians">nerfies</a>, We
+                thank the authors for sharing the templates.
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
