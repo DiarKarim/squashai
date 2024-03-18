@@ -46,11 +46,11 @@ mpPose = mp.solutions.pose
 pose = mpPose.Pose(
     min_detection_confidence=0.5,
     min_tracking_confidence=0.5,
-    model_complexity=2,  # Model complexity: 0, 1, or 2
+    model_complexity=1,  # Model complexity: 0, 1, or 2
     enable_segmentation=True  # Whether to enable person segmentation
 )
 
-vidfile = "C:/Users/Monter/Projects/squashai/Videos/squash_vide_raw_1.MP4"
+vidfile = "C:/Users/Monter/Projects/squashai/Videos/IMG_5411.MP4"
 cap = cv2.VideoCapture(vidfile)
 pTime = 0
 
