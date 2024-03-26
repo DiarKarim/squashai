@@ -50,7 +50,8 @@ pose = mpPose.Pose(
     enable_segmentation=True  # Whether to enable person segmentation
 )
 
-vidfile = "C:/Users/Monter/Projects/squashai/Videos/IMG_5411.MP4"
+vidfile = "C:/Users/stuar/OneDrive/Documents/GitHub/squashai/Videos/snowboard trial.mp4"
+
 cap = cv2.VideoCapture(vidfile)
 pTime = 0
 
