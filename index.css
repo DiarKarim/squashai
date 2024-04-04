@@ -155,3 +155,27 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+/* Add this CSS to style the carousel */
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 auto;
+  margin-right: 10px; /* Adjust as needed */
+}
+
+/* Hide the default HTML slider navigation */
+.slider-navigation-previous,
+.slider-navigation-next,
+.slider-pagination {
+  display: none;
+}
+

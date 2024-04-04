@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en"> 
 <html>
   <head>
     <meta charset="utf-8" />
@@ -220,14 +221,35 @@
         <div class="columns is-centered has-text-centered">
           <div class="column is-four-fifths">
             <hr> 
-            <h2 class="title is-4">The overall pipeline of our model</h2>
-            <div class="spacing"></div> <!-- Add some spacing above the image -->
-            <img
-              src="./Gifs/Squash motionbuilder GIF.gif"
-              class="interpolation-image"
-              alt="Interpolation end reference image."
-            />
-            <div class="spacing"></div> 
+            <style>
+              .column {
+                text-align: center; /* Center-align the text below each image */
+              }
+              .column img {
+                max-width: 60%; /* Set maximum width to prevent images from exceeding their container */
+                height: auto; /* Maintain aspect ratio */
+              }
+            </style>
+            
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-one-third">
+                <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/1.jpg" alt="Image 1">
+                <p>Leveraging existing data from online sources, 
+                  AI models can be trained to discern patterns in squash gameplay, 
+                  enhancing their understanding of data intricacies.</p>
+              </div>
+              <div class="column is-one-third">
+                <img src= "https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/Real time analysis.jpg" alt="Image 2">
+                <p>Real-time analysis empowers models to process live match data, 
+                  facilitating immediate insights for analysis, which can be used to improve spectator and referee live experience.</p>
+              </div>
+              <div class="column is-one-third">
+                <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/AI%20analysis.jpg" alt="Image 3">
+                <p>AI models can analyse gameplay, aiding referee decisions, 
+                  generating tactical insights, and enriching the spectator experience through enhanced viewing capabilities</p>
+              </div>
+            </div>
+      
             <hr> 
             <div class="spacing"></div> 
             <h2 class="title is-3">Abstract</h2>
@@ -250,57 +272,157 @@
             </div>
           </div>
         </div>
-
+        <hr>
+        <h2 class="title is-4">The overall pipeline of our model</h2>
+        <div class="spacing"></div> <!-- Add some spacing above the image -->
         <img
-          src="./teaserfig2.gif"
+          src="./Gifs/Squash motionbuilder GIF.gif"
           class="interpolation-image"
           alt="Interpolation end reference image."
         />
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <hr> 
-            <h2 class="title is-3">SquashAIVideo</h2>
-            <div class="publication-video">
-              <iframe src="https://www.youtube.com/embed/UAUb0IdT4x0?si=1PJ4AQlyKD8LYNdD"
-                title="SquashAI Demo Video"
-                frameborder="0" allowfullscreen></iframe>
+        <hr>
+        <h2 class="title is-4">Keep up to date with our project by following our tiktok</h2>
+        <title>Horizontal TikTok Video Carousel</title>
+<style>
+    /* Style for the centered container */
+    .centered-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust the height as needed */
+    }
+    
+    /* Style for the carousel container */
+    .carousel-container {
+        width: 80%; /* Adjust the width of the carousel container */
+        overflow: hidden;
+        position: relative;
+    }
+    
+    /* Style for the carousel wrapper */
+    .carousel-wrapper {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    
+    /* Style for each video card */
+    .video-card {
+        flex: 0 0 auto;
+        width: 100%; /* Adjust the width of each video card as per your requirement */
+        margin-right: 20px;
+    }
+    
+    /* Style for the navigation buttons */
+    .nav-btn {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    
+    .prev-btn {
+        left: 10px;
+    }
+    
+    .next-btn {
+        right: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="centered-container">
+    <div class="carousel-container">
+        <button class="nav-btn prev-btn" onclick="prevSlide()">Prev</button>
+        <div class="carousel-wrapper">
+            <!-- Video Cards -->
+            <div class="video-card">
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@squash_ai/video/7353718850019478817" data-video-id="7353718850019478817" style="max-width: 605px;min-width: 325px;" >
+                    <section>
+                        <a target="_blank" title="@squash_ai" href="https://www.tiktok.com/@squash_ai?refer=embed">@squash_ai</a>
+                        Using AI-Tech in sports
+                        <a title="squash" target="_blank" href="https://www.tiktok.com/tag/squash?refer=embed">#squash</a>
+                        <a title="psa" target="_blank" href="https://www.tiktok.com/tag/psa?refer=embed">#psa</a>
+                        <a title="sports" target="_blank" href="https://www.tiktok.com/tag/sports?refer=embed">#sports</a>
+                        <a title="ai" target="_blank" href="https://www.tiktok.com/tag/ai?refer=embed">#ai</a>
+                        <a title="tech" target="_blank" href="https://www.tiktok.com/tag/tech?refer=embed">#tech</a>
+                        <a target="_blank" title="♬ original sound - SquashAi" href="https://www.tiktok.com/music/original-sound-7353718895620016928?refer=embed">♬ original sound - SquashAi</a>
+                    </section>
+                </blockquote>
+                <script async src="https://www.tiktok.com/embed.js"></script>
             </div>
-          </div>
+            <div class="video-card">
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@squashtv/video/7338114906677398816" data-video-id="7338114906677398816" style="max-width: 605px;min-width: 325px;" >
+                    <section>
+                        <a target="_blank" title="@squashtv" href="https://www.tiktok.com/@squashtv?refer=embed">@squashtv</a>
+                        You're the referee! Was this the correct decision at this CRUCIAL point in the match?
+                        <a title="squash" target="_blank" href="https://www.tiktok.com/tag/squash?refer=embed">#squash</a>
+                        <a title="psaworldtour" target="_blank" href="https://www.tiktok.com/tag/psaworldtour?refer=embed">#psaworldtour</a>
+                        <a title="referee" target="_blank" href="https://www.tiktok.com/tag/referee?refer=embed">#referee</a>
+                        <a target="_blank" title="♬ original sound  - SQUASHTV" href="https://www.tiktok.com/music/original-sound-SQUASHTV-7338114995057740576?refer=embed">♬ original sound  - SQUASHTV</a>
+                    </section>
+                </blockquote>
+                <script async src="https://www.tiktok.com/embed.js"></script>
+            </div>
+            <div class="video-card">
+                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@squash_ai/video/7353246904538385696" data-video-id="7353246904538385696" style="max-width: 605px;min-width: 325px;" >
+                    <section>
+                        <a target="_blank" title="@squash_ai" href="https://www.tiktok.com/@squash_ai?refer=embed">@squash_ai</a>
+                        Consistency issues in refereeing in squash
+                        <a title="squash" target="_blank" href="https://www.tiktok.com/tag/squash?refer=embed">#squash</a>
+                        <a title="sports" target="_blank" href="https://www.tiktok.com/tag/sports?refer=embed">#sports</a>
+                        <a title="ai" target="_blank" href="https://www.tiktok.com/tag/ai?refer=embed">#ai</a>
+                        <a title="competition" target="_blank" href="https://www.tiktok.com/tag/competition?refer=embed">#competition</a>
+                        <a target="_blank" title="♬ original sound - SquashAi" href="https://www.tiktok.com/music/original-sound-7353246934939061024?refer=embed">♬ original sound - SquashAi</a>
+                    </section>
+                </blockquote>
+                <script async src="https://www.tiktok.com/embed.js"></script>
+            </div>
+            <!-- Add more video cards here -->
         </div>
-        <hr> 
-        <style>
-          .column {
-            text-align: center; /* Center-align the text below each image */
-          }
-          .column img {
-            max-width: 80%; /* Set maximum width to prevent images from exceeding their container */
-            height: auto; /* Maintain aspect ratio */
-          }
-        </style>
-        
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-one-third">
-            <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/1.jpg" alt="Image 1">
-            <p>Leveraging existing data from online sources, 
-              AI models can be trained to discern patterns in squash gameplay, 
-              enhancing their understanding of data intricacies.</p>
-          </div>
-          <div class="column is-one-third">
-            <img src= "https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/Real time analysis.jpg" alt="Image 2">
-            <p>Real-time analysis empowers models to process live match data, 
-              facilitating immediate insights for analysis, which can be used to improve spectator and referee live experience.</p>
-          </div>
-          <div class="column is-one-third">
-            <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/AI%20analysis.jpg" alt="Image 3">
-            <p>AI models can analyse gameplay, aiding referee decisions, 
-              generating tactical insights, and enriching the spectator experience through enhanced viewing capabilities</p>
-          </div>
-        </div>
-        
-        
-        
+        <button class="nav-btn next-btn" onclick="nextSlide()">Next</button>
+    </div>
+</div>
 
+<script>
+  // JavaScript for sliding effect
+  const wrapper = document.querySelector('.carousel-wrapper');
+  const videoCards = document.querySelectorAll('.video-card');
+  const cardWidth = videoCards[0].offsetWidth + 20; // Add margin-right to card width
+  let currentIndex = 0;
 
+  function prevSlide() {
+      if (currentIndex === 0) {
+          // If currently on the first video, go to the last video
+          currentIndex = videoCards.length - 1;
+      } else {
+          currentIndex--;
+      }
+      scrollToCurrentIndex();
+  }
+
+  function nextSlide() {
+      if (currentIndex === videoCards.length - 1) {
+          // If currently on the last video, go to the first video
+          currentIndex = 0;
+      } else {
+          currentIndex++;
+      }
+      scrollToCurrentIndex();
+  }
+
+  function scrollToCurrentIndex() {
+      const scrollX = currentIndex * cardWidth;
+      wrapper.style.transform = `translateX(-${scrollX}px)`;
+  }
+</script>
+        
 
         <!--/ Abstract. -->
 
@@ -331,29 +453,20 @@
       </div>
     </div>
   </div>
-  <hr>
-  <h2 class="title is-3">Example decision-making</h2>
-<p class="subtitle is-6"> We believe an AI system for decision making could remove the 
-  inconsistency of decision making in squash. Below are some examples of player interference and controvesial decisions.  </p>
+<hr>
+
+<h2 class="title is-3">Example decision-making</h2>
+<p class="subtitle is-6">We believe an AI system for decision making could remove the inconsistency of decision making in squash. Below are some examples of player interference and controversial decisions.</p>
 <div class="columns is-centered has-text-centered">
   <div class="column">
     <!-- First YouTube video -->
-    <iframe width="450" height="250" src="https://www.youtube.com/embed/Xlf3slnTlQU?si=HjjEW5AIHqZxMRkX" frameborder="0" allowfullscreen title="First YouTube video"></iframe>
-    <!-- Second YouTube video -->
-    <iframe width="450" height="250" src="https://www.youtube.com/embed/gBvwkOXDWgQ?si=VEbmIm8VVOQqOdaa" frameborder="0" allowfullscreen title="Second YouTube video"></iframe>
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/Xlf3slnTlQU?si=HjjEW5AIHqZxMRkX" frameborder="0" allowfullscreen title="First YouTube video"></iframe>
   </div>
   <div class="column">
-    <!-- Third local video -->
-    <video width="300" height="200" controls>
-      <source src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Videos/Decision.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <!-- Second YouTube video -->
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/gBvwkOXDWgQ?si=VEbmIm8VVOQqOdaa" frameborder="0" allowfullscreen title="Second YouTube video"></iframe>
   </div>
 </div>
-</section>
-
-
-
 <!--/ Paper video. -->
 
         <!-- <div class="columns is-centered has-text-centered">

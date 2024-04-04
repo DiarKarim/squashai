@@ -76,3 +76,35 @@ $(document).ready(function() {
     bulmaSlider.attach();
 
 })
+
+// Add this JavaScript to handle the carousel navigation
+let slideIndex = 0;
+const slides = document.querySelectorAll('.carousel-item');
+
+function showSlides() {
+  slides.forEach(slide => {
+    slide.style.display = 'none';
+  });
+  slides[slideIndex].style.display = 'block';
+}
+
+function nextSlide() {
+  if (slideIndex < slides.length - 1) {
+    slideIndex++;
+  } else {
+    slideIndex = 0;
+  }
+  showSlides();
+}
+
+function prevSlide() {
+  if (slideIndex > 0) {
+    slideIndex--;
+  } else {
+    slideIndex = slides.length - 1;
+  }
+  showSlides();
+}
+
+showSlides();
+
