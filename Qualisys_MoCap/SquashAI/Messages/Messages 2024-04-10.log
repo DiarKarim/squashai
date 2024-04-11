@@ -1,0 +1,94 @@
+1	15:37:03	Realtime started	
+1	15:37:28	Disconnected	
+1	15:37:28	Error(s) when changing camera system settings. Double-click for more information	Error(s) when changing camera system settings:  001 - code 08 - camera 06 (192.168.254.10) : The camera did not reply during a(n) 'set settings' operation.
+1	15:37:36	Realtime started	
+1	15:39:27	Disconnected	
+1	15:39:59	Realtime started	
+1	15:41:17	Disconnected	
+1	15:41:17	Error(s) when in the main loop. Double-click for more information	Error(s) when in the main loop:  001 - code 08 - camera 06 (192.168.254.10) : The camera did not reply during a(n) 'set settings' operation.
+1	15:41:22	Realtime started	
+1	15:41:30	Disconnected	
+1	15:43:10	Realtime started	
+1	15:44:51	Disconnected	
+1	15:44:51	Error(s) when changing camera system settings. Double-click for more information	Error(s) when changing camera system settings:  001 - code 08 - camera 06 (192.168.254.10) : The camera did not reply during a(n) 'stop measurement and fetch' operation.
+1	15:44:55	Error(s) when connecting to the cameras. Double-click for more information	Error(s) when connecting to the cameras:  001 - code 42 - camera 07 (192.168.254.10) : QTCP Error: Camera did not respond to connect request within 2000 ms.
+1	15:45:09	Error(s) when connecting to the cameras. Double-click for more information	Error(s) when connecting to the cameras:  001 - code 42 - camera 05 (192.168.254.10) : QTCP Error: Camera did not respond to connect request within 2000 ms.
+1	15:45:22	Error(s) when connecting to the cameras. Double-click for more information	Error(s) when connecting to the cameras:  001 - code 42 - camera 04 (192.168.254.10) : QTCP Error: Camera did not respond to connect request within 2000 ms.
+1	15:46:48	File loaded from C:\Users\VR-Lab\Documents\Projects\SquashAI\Assets\Qualisys\DemoCustomSkeletonQtm.qtm	
+1	15:49:11	File closed	
+1	15:49:11	File loaded from C:\Users\VR-Lab\Documents\Projects\SquashAI\Assets\Qualisys\Demo6DOFQtm.qtm	
+1	15:49:39	File closed	
+1	15:49:40	File loaded from C:\Users\VR-Lab\Documents\Projects\SquashAI\Assets\Qualisys\DemoCustomSkeletonQtm.qtm	
+1	15:50:18	File closed	
+1	15:50:18	File loaded from C:\Users\VR-Lab\Documents\Projects\SquashAI\Assets\Qualisys\Demo6DOFQtm.qtm	
+1	15:51:39	File closed	
+1	15:51:39	File loaded from C:\Users\VR-Lab\Documents\Projects\SquashAI\Assets\Qualisys\DemoSkeletonQtm.qtm	
+1	15:54:02	File closed	
+1	15:54:05	Realtime started	
+1	15:54:57	Disconnected	
+1	15:54:57	Error(s) when changing camera system settings. Double-click for more information	Error(s) when changing camera system settings:  001 - code 08 - camera 05 (192.168.254.3) : The camera did not reply during a(n) 'set settings' operation.
+1	15:55:15	Realtime started	
+1	15:55:20	Disconnected	
+1	15:55:20	Error(s) when changing camera system settings. Double-click for more information	Error(s) when changing camera system settings:  001 - code 08 - camera 05 (192.168.254.10) : The camera did not reply during a(n) 'stop measurement and fetch' operation.
+1	15:57:09	Realtime started	
+1	15:57:14	Disconnected	
+1	15:57:14	Error(s) when changing camera system settings. Double-click for more information	Error(s) when changing camera system settings:  001 - code 08 - camera 06 (192.168.254.10) : The camera did not reply during a(n) 'stop measurement and fetch' operation. 002 - code 08 - camera 05 (192.168.254.3) : The camera did not reply during a(n) 'stop measurement and fetch' operation.
+1	15:57:40	Realtime started	
+1	15:57:59	Disconnected	
+1	15:57:59	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 09 - camera 03 (192.168.254.7) : The camera has stopped communicating.
+1	15:58:13	Error(s) when connecting to the cameras. Double-click for more information	Error(s) when connecting to the cameras:  001 - code 42 - camera 07 (192.168.254.7) : QTCP Error: Camera did not respond to FIN in connect sequence within 2000 ms.
+1	15:58:23	Camera synchronization error.	Error(s) while connecting to cameras:  Camera 1 (192.168.254.7) - Error code (42): QTCP Error: Camera did not respond to FIN in connect sequence within 2000 ms. 
+1	15:58:58	File loaded from C:\Users\VR-Lab\Documents\Projects\SquashAI\Assets\Qualisys\DemoCustomSkeletonQtm.qtm	
+1	15:59:34	File closed	
+1	15:59:34	File loaded from C:\Users\VR-Lab\Documents\Projects\SquashAI\Assets\Qualisys\DemoGazeQtm.qtm	
+1	15:59:50	File closed	
+1	15:59:51	File loaded from C:\Users\VR-Lab\Documents\Projects\SquashAI\Assets\Qualisys\DemoSkeletonQtm.qtm	
+1	16:00:28	File closed	
+1	16:00:35	Realtime started	
+1	16:00:56	Disconnected	
+1	16:01:37	Realtime started	
+1	16:01:49	Disconnected	
+1	16:01:49	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 09 - camera 03 (192.168.254.7) : The camera has stopped communicating. 002 - code 09 - camera 05 (192.168.254.3) : The camera has stopped communicating. 003 - code 09 - camera 06 (192.168.254.10) : The camera has stopped communicating.
+1	16:01:55	Realtime started	
+1	16:03:12	Calibration started	
+1	16:03:12	Calibration finished after 0.0169 seconds	
+1	16:03:12	File created	
+1	16:03:12	File saved as C:\Users\VR-Lab\Documents\SquashAI\Calibrations\20240410_160210_FAILED.qca	
+1	16:03:23	File closed	
+1	16:03:31	Realtime started	
+1	16:03:43	Disconnected	
+1	16:03:43	Error(s) when waiting for realtime frame. Double-click for more information	Error(s) when waiting for realtime frame:  001 - code 09 - camera 03 (192.168.254.7) : The camera has stopped communicating. 002 - code 09 - camera 05 (192.168.254.3) : The camera has stopped communicating. 003 - code 09 - camera 06 (192.168.254.10) : The camera has stopped communicating.
+1	16:18:10	Realtime started	
+1	16:22:09	Calibration started	
+1	16:22:11	Calibration finished after 1.6000 seconds	
+1	16:22:11	File created	
+1	16:22:11	File saved as C:\Users\VR-Lab\Documents\SquashAI\Calibrations\20240410_162138_FAILED.qca	
+1	16:22:27	File closed	
+1	16:22:31	Realtime started	
+1	16:23:39	Disconnected	
+1	16:56:08	Realtime started	
+1	16:58:13	To cover the detected markers, 6 masks are needed. 1 marker masks were omitted, since the maximum number of masks is 5.	To cover the detected markers, 6 masks are needed. 1 marker masks were omitted, since the maximum number of masks is 5.
+1	17:00:16	Calibration started	
+1	17:00:17	Calibration finished after 1.4399 seconds	
+1	17:00:18	File created	
+1	17:00:18	File saved as C:\Users\VR-Lab\Documents\SquashAI\Calibrations\20240410_165944.qca	
+1	17:00:25	File closed	
+1	17:01:55	Realtime started	
+1	17:03:14	File created	
+1	17:07:49	File saved as C:\Users\VR-Lab\Documents\SquashAI\Calibrations\SM_Trial_1.qtm	
+1	17:08:46	File closed	
+1	17:08:49	Realtime started	
+1	17:09:50	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.
+2	17:19:52	File loaded from C:\Users\VR-Lab\Documents\SquashAI\Calibrations\SM_Trial_1.qtm	
+2	17:21:16	File closed	
+1	17:21:35	Disconnected	
+1	17:21:42	Realtime started	
+1	17:22:12	File created	
+1	17:22:26	File saved as C:\Users\VR-Lab\Documents\SquashAI\Calibrations\SM_Trial_2_RT.qtm	
+1	17:56:54	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.
+1	17:57:10	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.
+1	18:09:51	File saved as C:\Users\VR-Lab\Documents\SquashAI\Calibrations\SM_Trial_2_RT.qtm	
+1	18:09:55	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.
+1	18:22:52	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.
+1	18:22:56	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.	No skeleton definition(s) could be created. Verify that the markers are labeled and prefixed correctly.
+1	18:29:22	File closed	
