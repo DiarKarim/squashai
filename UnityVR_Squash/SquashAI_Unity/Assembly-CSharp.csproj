@@ -87,6 +87,8 @@
     <Compile Include="Assets\Qualisys\QTM-Unity-Realtime-Streaming\Helpers\Quaternion.cs" />
     <Compile Include="Assets\Qualisys\QTM-Unity-Realtime-Streaming\Streaming\RTAnalog.cs" />
     <Compile Include="Assets\Qualisys\QTM-Unity-Realtime-Streaming\Streaming\RTUnlabeledMarker.cs" />
+    <Compile Include="Assets\UDPReceive_v1.cs" />
+    <Compile Include="Assets\MoveObj_UDP.cs" />
     <Compile Include="Assets\Qualisys\QTM-Unity-Realtime-Streaming\Streaming\RTAnalogIMU.cs" />
     <Compile Include="Assets\Qualisys\QTM-Unity-Realtime-Streaming\Streaming\RTMarker.cs" />
     <Compile Include="Assets\Qualisys\QTM-Unity-Realtime-Streaming\Helpers\RTClientUpdater.cs" />
