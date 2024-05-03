@@ -537,6 +537,38 @@
         </p>
       </div>
     </section>
+
+    <section class="section" id="contact">
+      <div class="container is-max-desktop">
+        <h2 class="title is-3">Contact Us</h2>
+        <form id="contact-form" method="post" action="send_email.php">
+          <div class="field">
+            <label class="label">Full Name</label>
+            <div class="control">
+              <input class="input" type="text" name="fullname" placeholder="Your Full Name" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" name="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" name="message" placeholder="Your Message" required></textarea>
+            </div>
+          </div>
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    
     <section class="section" id="BibTeX">
       <div class="container is-max-desktop content">
         <h2 class="title">BibTeX</h2>
