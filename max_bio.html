@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Member Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
+        }
+        .profile-card {
+            display: flex;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 600px;
+            width: 100%;
+        }
+        .profile-image {
+            width: 40%;
+            object-fit: cover;
+        }
+        .profile-info {
+            padding: 20px;
+            text-align: left;
+        }
+        .profile-info h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .profile-info p {
+            margin: 10px 0;
+            color: #666;
+        }
+        .bio {
+            padding: 20px;
+            text-align: justify;
+            color: #444;
+            width: 70%; /* Set width to match profile image */
+            font-size: 18px; /* Adjust font size */
+            line-height: 1.8; /* Adjust line height */
+        }
+        .interests,
+        .education {
+            flex: 1; /* Take remaining space */
+            padding: 10px; /* Reduce padding */
+            max-width: calc(25% - 10px); /* Set maximum width to half of the container width minus padding */
+            margin-top: -60px; /* Add margin to align with bio section */
+            text-align: center; /* Center-align content */
+            font-size: 16px; /* Adjust font size */
+            line-height: 1.8; /* Adjust line height */
+        }
+        .interests ul,
+        .education ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            text-align: left; /* Align list items to the left */
+            margin-left: 0; /* Remove default margin */
+            padding-left: 0; /* Remove default padding */
+        }
+        .interests li,
+        .education li {
+            text-align: center; /* Center-align list items */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile-card">
+        <img src="Headshots/Max headshot.png" alt="Team Member 2" class="profile-image">
+        <div class="profile-info">
+            <h3>Max Di Luca</h3>
+            <p>Associate Professor</p>
+            <p>University of Birmingham</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="bio">
+        <p>Max Di Luca is Associate Professor at the University of Birmingham in the CNCR research centre. 
+            Using psychophysical methods and computational models, he investigates how the human brain processes 
+            multisensory information for perception and action. He earned the Laurea in Psychology from the Università 
+            di Trieste in 2000 and the PhD in Cognitive Science from Brown University in 2006. During his career, 
+            Dr Di Luca has been Scientist at the Max Planck Institute for Biological Cybernetics in Tübingen, 
+            Visiting Scientist at Oculus Research and Research Scientist at Facebook Reality Labs.</p>
+    </div>
+</div>
+<div class="container">
+    <div class="interests">
+        <h4>Interests</h4>
+        <ul>
+            <li>Multisensory Integration</li>
+            <li>Cognitive Neuroscience</li>
+            <li>Human-Computer Interaction</li>
+        </ul>
+    </div>
+    <div class="education">
+        <h4>Education</h4>
+        <ul>
+            <li>PhD in Cognitive Science, Brown University, 2006</li>
+            <li>Laurea in Psychology, Università di Trieste, 2000</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
