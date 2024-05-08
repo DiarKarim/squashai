@@ -1,318 +1,149 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="description"
-      content="SquashAI: Real-Time 3D Tracking and AI Analysis for Squash"
-    />
-    <meta
-      name="keywords"
-      content="AR, VR, Sports Tracking, Evaluation, Coaching"
-    />
-    <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="description" content="SquashAI: Real-Time 3D Tracking and AI Analysis for Squash" />
-  <meta name="keywords" content="AR, VR, Sports Tracking, Evaluation, Coaching" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    body {
-      text-align: center; /* Center align the content */
-    }
-    img {
-      width: 600px; /* Limit the maximum width of the image */
-      height: auto; /* Maintain aspect ratio */
-      display: block; /* Center the image horizontally */
-      margin: 0 auto; /* Center the image horizontally */
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SquashAI: Real-Time 3D Tracking and AI Analysis for Squash</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/SQUASH%20ai%20logo.png" alt="SquashAI Logo">
-  <h1>SquashAI: Real-Time 3D Tracking and AI Analysis for Squash</h1>
-  <!-- Your other content goes here -->
-</body>
-</html>
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-
-      gtag("js", new Date());
-
-      gtag("config", "G-PYVRSFMDRL");
-    </script>
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="./bulma.min.css" />
-    <link rel="stylesheet" href="./bulma-carousel.min.css" />
-    <link rel="stylesheet" href="./bulma-slider.min.css" />
-    <link rel="stylesheet" href="./fontawesome.all.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
-    />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="icon" href="./static/images/hust.png" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script defer src="./fontawesome.all.min.js"></script>
-    <script src="./bulma-carousel.min.js"></script>
-    <script src="./bulma-slider.min.js"></script>
-    <script src="./index.js"></script>
-  </head>
-
-  <body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar custom-navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
       <div class="navbar-brand">
-        <a
-          role="button"
-          class="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+        <a class="navbar-item" href="#">
+          <!-- <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/SQUASH%20ai%20logo.png" alt="SquashAI Logo" width="200" height="auto"> -->
         </a>
       </div>
-      <div class="navbar-menu">
-        <div class="navbar-start" style="flex-grow: 1; justify-content: center">
-          <a class="navbar-item" href="https://diarkarim.github.io/">
-            <span class="icon">
-              <i class="fas fa-home"></i>
-            </span>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="#">
+            Home
           </a>
-
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link"> More Research </a>
+            <a class="navbar-link">
+              More Research
+            </a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="https://textinputvault.github.io/">
-                Text Input Vault
-              </a>
-              <a
-                class="navbar-item"
-               href="https://link. springer.com/article/10.3758/s13428-022-02051-8"
-              >
-                Framework for Hand Tracking Evaluation
-              </a>
+              <a class="navbar-item" href="#">Text Input Vault</a>
+              <a class="navbar-item" href="#">Framework for Hand Tracking Evaluation</a>
             </div>
           </div>
         </div>
       </div>
-    </nav>
-
-    <section class="hero">
-      <div class="hero-body">
-        <div class="container is-max-desktop">
-          <div class="columns is-centered">
-            <div class="column has-text-centered">
-              <h3 class="title is-1 publication-title">
-                SquashAI: Real-Time 3D Tracking and AI Analysis for Squash
-              </h3>
-              <h4 class="title is-1 publication-title">
-                
-              </h4>
-              <h5 class="title is-3">CHI 2025</h5>
-
-              <div class="is-size-5 publication-authors">
-                <span class="author-block">
-                  <a href="https://diarkarim.github.io">Author 1</a
-                  ><sup>1*✉</sup>,</span
-                >
-                <span class="author-block">
-                  <a href="https://taoranyi.github.io">Author 2</a
-                  ><sup>2*</sup>,</span
-                >
-                <span class="author-block">
-                  <a href="https://jaminfong.cn">Author 3</a><sup>2</sup>,
-                </span>
-                <span class="author-block">
-                  <a
-                    href="https://scholar.google.com/citations?hl=en&user=ru_z3mMAAAAJ"
-                    >Author 4</a
-                  ><sup>2</sup>,
-                </span>
-                <span class="author-block">
-                  <a href="https://massimilianodiluca.info/">Author 5</a
-                  ><sup>1‡</sup>,
-                </span>
-              </div>
-
-              <div class="is-size-5 publication-authors">
-                <span class="author-block"
-                  ><sup>1</sup>University of Birmingham, School of
-                  Psychology</span
-                >
-                <span class="author-block"
-                  ><sup>2</sup>University of Birmingham, School of Sport,
-                  Exercise and Rehabilitation Sciences</span
-                >
-                <p></p>
-                <span class="author-block"
-                  ><sup>*</sup>Equal Contributions.</span
-                >
-                <span class="author-block"><sup>‡</sup>Project Lead.</span>
-
-                <span class="author-block"
-                  ><sup>✉</sup>Corresponding Authors.</span
-                >
-              </div>
-              <div class="column has-text-centered">
-                <div class="publication-links">
-                  <!-- PDF Link. -->
-                  <span class="link-block">
-                    <a
-                      href="https://www.biorxiv.org/content/10.1101/2022.02.18.481001v1.full.pdf"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Paper</span>
-                    </a>
-                  </span>
-                  <span class="link-block">
-                    <a
-                      href="https://www.biorxiv.org/content/10.1101/2022.02.18.481001v1"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
-                      <span class="icon">
-                        <i class="ai ai-arxiv"></i>
-                      </span>
-                      <span>arXiv</span>
-                    </a>
-                  </span>
-                  <!-- Video Link. -->
-                  <!-- <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-youtube"></i>
-                  </span>
-                  <span>Video</span>
+    </div>
+  </nav>
+  <style>
+    .custom-navbar {
+      background-color: #bce3e6; /* Change this to your desired color */
+    }
+  </style>
+  
+  <section class="hero is-primary is-bold">
+    <div class="hero-body custom-hero">
+        <div class="container has-text-centered">
+            <div class="logo-and-title-container">
+                <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/SQUASH%20ai%20logo.png" alt="SquashAI Logo" width="250" height="auto">
+                <h1 class="title">
+                    <font color="black">: Real-Time 3D Tracking and AI Analysis for Squash</font>
+                </h1>
+            </div>
+            <div class="social-media-icons">
+                <a href="https://www.instagram.com/thesquash_ai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                    <img src="Images\instagram bck.png" alt="Instagram" width="50" height="50">
                 </a>
-              </span> -->
-                  <!-- Code Link. -->
-                  <span class="link-block">
-                    <a
-                      href="https://github.com/eyetrackai/eyetrackai.github.io"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
-                      <span class="icon">
-                        <i class="fab fa-github"></i>
-                      </span>
-                      <span>Code</span>
-                    </a>
-                  </span>
-                  <!-- Dataset Link. -->
-                  <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a> -->
-                </div>
-              </div>
+                <a href="https://www.tiktok.com/@squash_ai?is_from_webapp=1&sender_device=pc" target="_blank">
+                    <img src="https://p16-va-tiktok.ibyteimg.com/obj/musically-maliva-obj/3b90a8c919f6214e0d87e8b7dc56eaae" alt="TikTok" width="35" height="35">
+                </a>
             </div>
-          </div>
+            <h2 class="subtitle">
+            </h2>
+        </div>
+    </div>
+</section>
+
+<style>
+    .hero-body.custom-hero {
+        background-color: #bce3e6; /* Change this to your desired background color */
+    }
+
+    .logo-and-title-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-and-title-container img {
+        margin-right: -5px; /* Adjust this value as needed for spacing */
+    }
+
+    .social-media-icons {
+        margin-top: -60px; /* Adjust this value for vertical spacing */
+    }
+
+    .social-media-icons img {
+        margin-right: 10px; /* Adjust this value for horizontal spacing */
+    }
+</style>
+  
+  <div class="container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-one-third">
+        <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/1.jpg" alt="Image 1" style="max-width: 200px;">
+        <p>Leveraging existing data from online sources, AI models can be trained to discern patterns in squash gameplay, enhancing their understanding of data intricacies.</p>
+      </div>
+      <div class="column is-one-third">
+        <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/Real time analysis.jpg" alt="Image 2" style="max-width: 200px;">
+        <p>Real-time analysis empowers models to process live match data, facilitating immediate insights for analysis, which can be used to improve spectator and referee live experience.</p>
+      </div>
+      <div class="column is-one-third">
+        <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/AI%20analysis.jpg" alt="Image 3" style="max-width: 200px;">
+        <p>AI models can analyze gameplay, aiding referee decisions, generating tactical insights, and enriching the spectator experience through enhanced viewing capabilities.</p>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h2 class="title is-4">Abstract</h2>
+          <p>
+            In an innovative leap for squash enthusiasts and professionals alike, our project harnesses cutting-edge AI technology to revolutionize how player movements and poses are analyzed during matches. By meticulously tracking and translating these dynamics into detailed 3D avatars, we offer an unparalleled view into the game’s intricacies. This system not only enriches the audience's comprehension of player strategies and motions but also equips referees with powerful tools to enhance decision-making accuracy in near real-time. Beyond offering vivid visualizations, such as hit heatmaps, our technology delves deep into game analytics, providing precise statistics on player hits and winning tactics. Designed for seamless integration into live broadcasts and online platforms, our project aims to demystify the fast-paced action of squash, making it more accessible and engaging for fans and professionals. As part of our website and project promotion, we invite you to explore how we're setting new standards for sports analytics and viewer engagement in squash.
+          </p>
         </div>
       </div>
-    </section>
-
-    <section class="section">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <hr> 
-            <style>
-              .column {
-                text-align: center; /* Center-align the text below each image */
-              }
-              .column img {
-                max-width: 60%; /* Set maximum width to prevent images from exceeding their container */
-                height: auto; /* Maintain aspect ratio */
-              }
-            </style>
-            
-            <div class="columns is-centered has-text-centered">
-              <div class="column is-one-third">
-                <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/1.jpg" alt="Image 1">
-                <p>Leveraging existing data from online sources, 
-                  AI models can be trained to discern patterns in squash gameplay, 
-                  enhancing their understanding of data intricacies.</p>
-              </div>
-              <div class="column is-one-third">
-                <img src= "https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/Real time analysis.jpg" alt="Image 2">
-                <p>Real-time analysis empowers models to process live match data, 
-                  facilitating immediate insights for analysis, which can be used to improve spectator and referee live experience.</p>
-              </div>
-              <div class="column is-one-third">
-                <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/AI%20analysis.jpg" alt="Image 3">
-                <p>AI models can analyse gameplay, aiding referee decisions, 
-                  generating tactical insights, and enriching the spectator experience through enhanced viewing capabilities</p>
-              </div>
-            </div>
-            <hr>
-            <div class="spacing"></div> 
-            <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
-              <p>
-                In an innovative leap for squash enthusiasts and professionals alike, 
-                our project harnesses cutting-edge AI technology to revolutionize how 
-                player movements and poses are analyzed during matches. By meticulously 
-                tracking and translating these dynamics into detailed 3D avatars, we offer 
-                an unparalleled view into the game’s intricacies. This system not only enriches 
-                the audience's comprehension of player strategies and motions but also equips 
-                referees with powerful tools to enhance decision-making accuracy in near real-time. 
-                Beyond offering vivid visualizations, such as hit heatmaps, our technology delves 
-                deep into game analytics, providing precise statistics on player hits and winning tactics. 
-                Designed for seamless integration into live broadcasts and online platforms, our project aims 
-                to demystify the fast-paced action of squash, making it more accessible and engaging for fans 
-                and professionals. As part of our website and project promotion, we invite you to explore how 
-                we're setting new standards for sports analytics and viewer engagement in squash.
-              </p>
-            </div>
-          </div>
+    </div>
+  </section>
+  <hr>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h2 class="title is-4">Example of Gold standard motion capture</h2>
+          <figure class="image is-16by9">
+            <img src="./Gifs/Marked person to capture the motion.gif" alt="Gold standard motion capture">
+          </figure>
         </div>
-        <hr>
-        <h2 class="title is-4" style="text-align: center;">Example of Gold standard motion capture</h2>
-        <div style="text-align: center;"> <!-- Center aligning container -->
-          <img
-            src="./Gifs/Marked person to capture the motion.gif"
-            class="interpolation-image"
-            alt="Interpolation end reference image."
-          />
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h2 class="title is-4">The overall pipeline of our model</h2>
+          <figure class="image is-16by9">
+            <!-- <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Gifs/Squash%20motionbuilder%20GIF.gif" alt="Pipeline of our model"> -->
+            <img src= "Gifs\Squash motionbuilder GIF.gif" alt="Pipeline of our model">
+          </figure>
         </div>
-        <hr>
-        <h2 class="title is-4" >The overall pipeline of our model</h2>
-        <div class="spacing"></div> <!-- Add some spacing above the image -->
-        <img
-          src="./Gifs/Squash motionbuilder GIF.gif"
-          class="interpolation-image"
-          alt="Interpolation end reference image."
-        />
-        <hr>
-        <h2 class="title is-4">Keep up to date with our project by following our tiktok</h2>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <h2 class="title is-4" style="text-align: center;">Keep up to date with our project by following our TikTok</h2>
         <title>Horizontal TikTok Video Carousel</title>
 <style>
     /* Style for the centered container */
@@ -452,12 +283,6 @@
       wrapper.style.transform = `translateX(-${scrollX}px)`;
   }
 </script>
-        
-
-        <!--/ Abstract. -->
-
-        <!-- Paper video. -->
-        <!-- Paper video. -->
 
 <section class="section">
   <hr>
@@ -484,193 +309,152 @@
     </div>
   </div>
 <hr>
+<div class="container is-max-desktop"><h2 class="title is-3">Example decision-making</h2>
+  <p class="subtitle is-6">We believe an AI system for decision making could remove the inconsistency of decision making in squash. Below are some examples of player interference and controversial decisions.</p>
+  <div class="columns is-centered has-text-centered">
+    <div class="column">
+      <!-- First YouTube video -->
+      <iframe width="400" height="250" src="https://www.youtube.com/embed/Xlf3slnTlQU?si=HjjEW5AIHqZxMRkX" frameborder="0" allowfullscreen title="First YouTube video"></iframe>
+    </div>
+    <div class="column">
+      <!-- Second YouTube video -->
+      <iframe width="400" height="250" src="https://www.youtube.com/embed/gBvwkOXDWgQ?si=VEbmIm8VVOQqOdaa" frameborder="0" allowfullscreen title="Second YouTube video"></iframe>
+    </div>
+  </div></div>
 
-<h2 class="title is-3">Example decision-making</h2>
-<p class="subtitle is-6">We believe an AI system for decision making could remove the inconsistency of decision making in squash. Below are some examples of player interference and controversial decisions.</p>
-<div class="columns is-centered has-text-centered">
-  <div class="column">
-    <!-- First YouTube video -->
-    <iframe width="400" height="250" src="https://www.youtube.com/embed/Xlf3slnTlQU?si=HjjEW5AIHqZxMRkX" frameborder="0" allowfullscreen title="First YouTube video"></iframe>
-  </div>
-  <div class="column">
-    <!-- Second YouTube video -->
-    <iframe width="400" height="250" src="https://www.youtube.com/embed/gBvwkOXDWgQ?si=VEbmIm8VVOQqOdaa" frameborder="0" allowfullscreen title="Second YouTube video"></iframe>
-  </div>
-</div>
-<!--/ Paper video. -->
+<hr>
+  <style>
+    .card-image img {
+      object-fit: cover;
+      height: 100%;
+    }
+  </style>
+  
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-quarters">
+          <h2 class="title is-4">Meet the Team</h2>
+          <div class="columns is-multiline is-centered">
+            <!-- Team member cards -->
+            <div class="column is-one-third">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="Headshots\Diar Headshot.png" alt="Diar Karim">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <p class="title is-5"><a href="diar_bio.html">Diar Karim</a></p>
+                  <p class="subtitle is-6">Post-doctoral Research Fellow</p>
+                  <p class="subtitle is-6">University of Birmingham</p>
+                </div>
+              </div>
+            </div>
 
-        <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
+            <!-- Team member 2 -->
+            <div class="column is-one-third">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="Headshots\Stu headshot copy.jpg" alt="Stuart Macgregor">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <p class="title is-5"><a href="stu_bio.html">Stuart MacGregor</a></p>
+                  <p class="subtitle is-6">MSc Computer Science graduate</p>
+                  <p class="subtitle is-6">University of Birmingham</p>
+                </div>
+              </div>
+            </div>
 
-        <!--/ Paper video. -->
+            <!-- Team member 3 -->
+            <div class="column is-one-third">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="Headshots\Jon headshot.jpg" alt="Jonathan Tate">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <p class="title is-5"><a href="jon_bio.html">Jonathan Tate</a></p>
+                  <p class="subtitle is-6">University of Birmingham Head Squash Coach</p>
+                  <p class="subtitle is-6">University of Birmingham</p>
+                </div>
+              </div>
+            </div>
 
-
-      </div>
-    </section>
-
-    <!-- <section class="section" id="BibTeX">
-      <div class="container is-max-desktop content">
-        <h2 class="title">BibTeX</h2>
-        <pre><code>@article{park2021nerfies,
-  author    = {Karim, Diar and Tiao, Ning, Mendez, Jhundon, Yeo, Sang-Hoon, Di Luca, Massimialino},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
-      </div>
-    </section> -->
-    <style>
-      .team-member img {
-        border-radius: 50%;
-        width: 150px; /* Adjust the size as needed */
-        height: 150px; /* Adjust the size as needed */
-        object-fit: cover;
-        object-position: center;
-      }
-    </style>
-    <h2 class="title is-3">Meet the Team</h2>
-    <div class="team-members">
-      <div class="columns is-multiline is-centered">
-        <div class="column is-one-third">
-          <div class="team-member">
-            <img src="Headshots\Diar Headshot.png" alt="Team Member 1">
-            <hr>
-            <h3><a href="diar_bio.html">Diar Karim</a></h3>
-            <p>Post-doctoral Research Fellow</p>
-            <p>University of Birmingham</p>
+            <!-- Team member 4 -->
+            <div class="column is-one-third">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="Headshots\Max headshot.png" alt="Max Di Luca">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <p class="title is-5"><a href="max_bio.html">Max Di Luca</a></p>
+                  <p class="subtitle is-6">Associate Professor</p>
+                  <p class="subtitle is-6">University of Birmingham</p>
+                </div>
+              </div>
+            </div>
+            <!-- Add more team member cards as needed -->
           </div>
         </div>
-        <div class="column is-one-third">
-          <div class="team-member">
-            <img src="Headshots\Stu headshot copy.jpg" alt="Team Member 2">
-            <hr>
-            <h3><a href="stu_bio.html">Stuart Macgregor</a></h3>
-            <p>MSC Computer Science graduate</p>
-            <p>University of Birmingham</p>
-          </div>
-        </div>
-    
-        <div class="column is-one-third">
-          <div class="team-member">
-            <img src="Headshots\Jon headshot.jpg" alt="Team Member 2">
-            <hr>
-            <h3><a href="jon_bio.html">Jonathan Tate</a></h3>
-            <p>University of Birmingham Head Squash Coach</p>
-            <p>University of Birmingham</p>
-          </div>
-        </div>
-    
-        <div class="column is-one-third">
-          <div class="team-member">
-            <img src= "Headshots\Max headshot.png" alt="Team Member 2">
-            <hr>
-            <h3><a href="max_bio.html">Max Di Luca</a></h3>
-            <p>Associate Professor</p>
-            <p>University of Birmingham</p>
-          </div>
-        </div>
-        <!-- Add more team members as needed -->
       </div>
     </div>
-
-    <section class="section" id="BibTeX">
-      <div class="container is-max-desktop content">
-        <h2 class="title">Acknowledgement</h2>
-        <p>
-          We would like to express our sincere gratitude to
-          <a href="https://github.com/xyz">XYZ</a> for their revisions to our
-          code and discussions on the content of our paper.
-        </p>
-      </div>
-    </section>
-
-    <!-- Contact Form -->
-    <section class="section" id="contact">
-      <div class="container is-max-desktop">
-        <h2 class="title is-3">Contact Us</h2>
-        <form action="https://formspree.io/f/mwkgyrwd" method="POST">
-          <div class="field">
-            <label class="label">Full Name</label>
-            <div class="control">
-              <input class="input" type="text" name="fullname" placeholder="Your Full Name" required>
-            </div>
-          </div>
-          <div class="field">
-            <label class="label">Email</label>
-            <div class="control">
-              <input class="input" type="email" name="email" placeholder="Your Email" required>
-            </div>
-          </div>
-          <div class="field">
-            <label class="label">Message</label>
-            <div class="control">
-              <textarea class="textarea" name="message" placeholder="Your Message" required></textarea>
-            </div>
-          </div>
-          <div class="field">
-            <div class="control">
-              <button class="button is-primary" type="submit">Submit</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-    
-    
-    <section class="section" id="BibTeX">
-      <div class="container is-max-desktop content">
-        <h2 class="title">BibTeX</h2>
-        <pre><code>@article{ka2024eyetrack,
-      title={SquashAI: Real-Time 3D Tracking and AI Analysis for Squash},
-      author={Karim, Diar and Tiao, Ning, Mendez, Jhundon, Yeo, Sang-Hoon, Di Luca, Massimialino},
-      journal={arXiv preprint arXiv:2310.08528},
-      year={2024}
-    }</code></pre>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <div class="content has-text-centered">
-          <a class="icon-link" href="https://arxiv.org/abs/2310.08528">
-            <i class="fas fa-file-pdf"></i>
-          </a>
-          <a
-            class="icon-link"
-            href="https://github.com/guanjunwu"
-            class="external-link"
-            disabled
-          >
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-        <div class="columns is-centered">
-          <div class="column is-8">
-            <div class="content">
-              <p>
-                This website is licensed under a
-                <a
-                  rel="license"
-                  href="http://creativecommons.org/licenses/by-sa/4.0/"
-                  >Creative Commons Attribution-ShareAlike 4.0 International
-                  License</a
-                >.
-              </p>
-              <!-- <p>
-                The souce code is borrowed from
-                <a href="https://github.com/hustvl/4DGaussians">nerfies</a>, We
-                thank the authors for sharing the templates.
-              </p> -->
-            </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4">Acknowledgement</h2>
+      <p>
+        We would like to express our sincere gratitude to <a href="https://github.com/xyz">XYZ</a> for their revisions to our code and discussions on the content of our paper.
+      </p>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4">Contact Us</h2>
+      <form action="https://formspree.io/f/mwkgyrwd" method="POST">
+        <div class="field">
+          <label class="label">Full Name</label>
+          <div class="control">
+            <input class="input" type="text" name="fullname" placeholder="Your Full Name" required>
           </div>
         </div>
-      </div>
-    </footer>
-  </body>
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input class="input" type="email" name="_replyto" placeholder="Your Email Address" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" name="message" placeholder="Your Message" required></textarea>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary" type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>SquashAI</strong> &copy; 2024. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+  <script defer src="script.js"></script>
+</body>
 </html>
