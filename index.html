@@ -42,25 +42,53 @@
   <section class="hero is-primary is-bold">
     <div class="hero-body custom-hero">
         <div class="container has-text-centered">
-            <div class="logo-and-title-container">
-                <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/SQUASH%20ai%20logo.png" alt="SquashAI Logo" width="250" height="auto">
-                <h1 class="title">
-                    <font color="black">: Real-Time 3D Tracking and AI Analysis for Squash</font>
-                </h1>
-            </div>
-            <div class="social-media-icons">
-                <a href="https://www.instagram.com/thesquash_ai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                    <img src="Images\instagram bck.png" alt="Instagram" width="50" height="50">
-                </a>
-                <a href="https://www.tiktok.com/@squash_ai?is_from_webapp=1&sender_device=pc" target="_blank">
-                    <img src="https://p16-va-tiktok.ibyteimg.com/obj/musically-maliva-obj/3b90a8c919f6214e0d87e8b7dc56eaae" alt="TikTok" width="35" height="35">
-                </a>
+            <!-- Logo, Title, and Social Media Icons Container -->
+            <div class="logo-title-social-container">
+                <!-- Logo Container -->
+                <div class="logo-container">
+                    <img src="https://raw.githubusercontent.com/DiarKarim/squashai/main/Images/SQUASH%20ai%20logo.png" alt="SquashAI Logo" width="250" height="auto">
+                </div>
+                <!-- Title Container -->
+                <div class="title-container">
+                    <h1 class="title">
+                        <font color="black">Real-Time 3D Tracking and AI Analysis for Squash</font>
+                    </h1>
+                </div>
+                <!-- Social Media Icons Container -->
+                <div class="social-media-icons">
+                    <a href="https://www.instagram.com/thesquash_ai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                        <img src="Images\instagram bck.png" alt="Instagram" width="50" height="50">
+                    </a>
+                    <a href="https://www.tiktok.com/@squash_ai?is_from_webapp=1&sender_device=pc" target="_blank">
+                        <img src="https://p16-va-tiktok.ibyteimg.com/obj/musically-maliva-obj/3b90a8c919f6214e0d87e8b7dc56eaae" alt="TikTok" width="35" height="35">
+                    </a>
+                </div>
             </div>
             <h2 class="subtitle">
             </h2>
         </div>
     </div>
 </section>
+
+<style>
+    .logo-title-social-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-container, .title-container {
+        margin-right: 10px; /* Adjust spacing between logo and title */
+    }
+
+    .social-media-icons {
+        margin-top: -20px; /* Adjust the margin to position the social media icons lower */
+    }
+</style>
+
+
+
+
 
 <style>
     .hero-body.custom-hero {
